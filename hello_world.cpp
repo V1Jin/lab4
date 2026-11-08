@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Program entry point
+// начало программы
 int main() {
     std::string name; // Stores the user's name
 
