@@ -1,14 +1,14 @@
 #include <iostream>
 
-using namespace std;
-
+// Program entry point
 int main() {
-    string name;
+    std::string name; // Stores the user's name
 
-    cout << "Enter your name: ";
-    cin >> name;
+    std::cout << "Enter your name: ";
+    std::cin >> name;
 
-    cout << "Hello world from @" << name << endl;
+    // Print personalized greeting
+    std::cout << "Hello world from @" << name << std::endl;
 
     return 0;
 }
